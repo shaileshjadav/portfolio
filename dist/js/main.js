@@ -89,11 +89,11 @@ function deletingEffect() {
 typingEffect();
 
 
-if ((document.querySelector('.html') != null) && (document.querySelector('.css') != null) && (document.querySelector('.js') != null) && (document.querySelector('.ps') != null)) {
-    document.querySelector('.html').style.width = '90%';
+if ((document.querySelector('.html') != null) && (document.querySelector('.css') != null) && (document.querySelector('.js') != null)) {
+    document.querySelector('.html').style.width = '65%';
     document.querySelector('.css').style.width = '90%';
     document.querySelector('.js').style.width = '70%';
-    document.querySelector('.ps').style.width = '85%';
+    // document.querySelector('.ps').style.width = '85%';
 }
 
 // document.querySelector('.projects img').onmouseover(function () {
